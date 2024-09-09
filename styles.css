@@ -37,3 +37,50 @@ ul{
   font-size: 18px;
   font-weight: 300;
 }
+
+.hero{
+  display: flex;
+  background-color: #1F2937;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hero-header{
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8
+}
+
+.hero-text{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero img{
+  height: 300px;
+  width: 500px;
+}
+
+button{
+  flex-grow: 0;
+  background-color: #3882F6;
+  border-radius: 8px;
+  border: 0px;
+  padding: 10px 25px;
+  color: #E5E7EB;
+  font-weight: bold;
+  font-size: 15px;
+}
