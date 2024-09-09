@@ -88,8 +88,6 @@ button{
 .content{
   display:flex;
   flex-direction: column;
-  padding-left: 150px;
-  padding-right: 150px;
 }
 
 .section-1{
@@ -97,7 +95,7 @@ button{
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  padding-top: 50px;
+  padding: 50px 150px;
 }
 
 .content-header{
@@ -130,4 +128,28 @@ button{
   text-align: center;
   flex-wrap: wrap;
   width: 150px;
+}
+
+.section-2{
+  display: flex;
+  background-color: #E5E7EB;
+  flex-direction: column;
+  padding: 100px 300px;
+  align-items: flex-end;
+}
+
+.section-2 .quote{
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0px;
+  padding: 0px;
+}
+
+.section-2 .attribution{
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
 }
