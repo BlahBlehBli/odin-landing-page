@@ -153,3 +153,44 @@ button{
   margin: 0px;
   padding: 0px;
 }
+
+.section-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 40px 100px;
+  gap: 150px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.section-3 .banner-text p{
+  margin: 0px;
+  padding: 0px;
+  color: #F9FAF8;
+}
+
+.banner-header{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.banner-button{
+  border: 2px solid #E5E7EB;
+}
